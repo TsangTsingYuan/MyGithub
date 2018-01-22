@@ -1,4 +1,4 @@
 # MyGithub
-学习git教程
-使用GIT
-再次添加
+taobao.py:淘宝商品定向爬虫
+stock.py:股票信息定向爬虫
+Database.py:数据库初始化信息
