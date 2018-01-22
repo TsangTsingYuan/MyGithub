@@ -9,3 +9,4 @@ from pymongo import MongoClient
 client = MongoClient('mongodb://localhost:27017/')
 #指定数据库名称 不存在会自动创建
 db = client.stock
+db2 = client.taobao
