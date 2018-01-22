@@ -49,6 +49,7 @@ def getStockInfo(lst, stockURL, fpath):
                 key = keyList[i].text
                 val = valueList[i].text
                 infoDict[key] = val
+                #print(infoDict)
 
             # 使用infoDict集合
             collection = db.infoDict
