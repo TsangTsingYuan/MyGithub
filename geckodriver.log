@@ -1,0 +1,19 @@
+1518254234529	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1518254234625	geckodriver	INFO	Listening on 127.0.0.1:58992
+1518254236818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tsang\\AppData\\Local\\Temp\\rust_mozprofile.yWT9N06m3tf4"
+1518254310949	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1518254311003	geckodriver	INFO	Listening on 127.0.0.1:59036
+1518254313701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tsang\\AppData\\Local\\Temp\\rust_mozprofile.xP2uFwvfjkAC"
+1518254316842	Marionette	INFO	Enabled via --marionette
+1518254325405	Marionette	INFO	Listening on port 59042
+[Parent 11752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518254326119	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518266332535	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1518266332572	geckodriver	INFO	Listening on 127.0.0.1:64866
+1518266334642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\tsang\\AppData\\Local\\Temp\\rust_mozprofile.vgYSeK9Pb45b"
+1518266339554	Marionette	INFO	Enabled via --marionette
+1518266350067	Marionette	INFO	Listening on port 64872
+[Child 10916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518266350942	Marionette	WARN	TLS certificate errors will be ignored for this session

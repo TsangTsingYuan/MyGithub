@@ -13,7 +13,7 @@ class StockSpider(scrapy.Spider):
             try:
                 stockCode = re.findall(r"[s][hz]_\d{6}", href)[0].replace('_', '')
                 url = 'https://gupiao.baidu.com/stock/' + stockCode + '.html'
-                if response.status == 403:  #判断网页响应更换代理IP
+                if response.status != 200:  #判断网页响应更换代理IP
                     requests.meta["change_proxy"] = True
 
                 yield scrapy.Request(url, callback=self.parse_stock)
